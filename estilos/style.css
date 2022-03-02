@@ -1,18 +1,87 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-*{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1em;
-}
+#B3562E
+#FFC1A6
+#FF8C5B
+#1DB39E
+#A1FFF2
 
 body{
-    background-color: rgb(189, 134, 240);
+    background-color: #ffc1a688;
+}
+article{
+    margin: 0 20px;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #52230e;
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 3px 3px 10px #b3562e83;
+    border-radius: 5px;
+}
+h1{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 600;
+    color: #b3562e;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #ff8c5b;
+}
+a{
+    
+    color: #1DB39E;
+    text-decoration: none;
+}
+a:hover{
+    color: #b3562e;
+    text-shadow: 1px 1px 3px #FFC1A6;
 }
 
-main{
-    background-color: azure;
-    width: 500px;
-    margin: auto;
-    padding: 10px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.26);
+.fotoperfil{
+    border-radius: 100%;
+    width: 20%;
+    float: left;
+    margin: 20px;
+    
+}
+.sobremim{
+    display: flex;
+    align-items: center;
+}
+.apresentacao{
+    margin-left: 10px;
+    display: inline;
+    text-indent: 30px;
+    text-align: justify;
+}
+.redessociais{
+    box-sizing: 800px;
+}
+ul img{
+    width: 25px;
+    margin: 10px;
+}
+.link {
+    display: flex;
+    align-items: center;
+}
+.estudos{
+    text-indent: 30px;
+    text-align: justify;
+}
+span{
+    font-size: 14px;
+    font-weight:300;
+    font-style: italic;
+    color: #b3562e;
+    text-align: center;
+    padding: 20px;
 }
