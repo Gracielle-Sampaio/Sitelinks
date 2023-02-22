@@ -6,9 +6,6 @@
     --cor-01:#444257;
     --cor-02:#F66B0E;
     --cor-03:#fff5ee;
-    
-
-
 }
 
 body{
@@ -30,13 +27,16 @@ h1{
     font-family: 'Playfair Display', serif;
     font-weight: 600;
     color: var(--cor-02);
+    text-align: center;
 }
 h2{
+    text-align: center;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     color: var(--cor-02);
 }
 a{
+    text-align: center;
     color: var(--cor-03);
     text-decoration: none;
 }
@@ -46,7 +46,7 @@ a:hover{
 }
 
 .fotoperfil{
-    border-radius: 100%;
+    border-radius: 25%;
     width: 20%;
     float: left;
     margin: 20px;
@@ -54,17 +54,18 @@ a:hover{
 }
 .sobremim{
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
-.apresentacao{
-    margin-left: 10px;
-    display: inline;
-    text-indent: 30px;
-    text-align: justify;
-}
+
 .redessociais{
     box-sizing: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
 }
+
 ul img{
     width: 25px;
     margin: 10px;
