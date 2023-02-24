@@ -11,6 +11,7 @@
 body{
     background-color: var(--cor-01);
     color: var(--cor-03);
+    background-image: linear-gradient(#444257,#35324b, #1c1a2b);
 }
 article{
     margin: 0 20px;
@@ -22,6 +23,12 @@ main{
     width: 900px;
     margin: auto;
     padding: 20px;
+    min-width: 200px;
+    max-width: 450px;
+
+    border-radius: 10px;
+    background-color: #44425733;
+    box-shadow:1px 3px 6px 1px #9591b118;
 }
 h1{
     font-family: 'Playfair Display', serif;
@@ -35,6 +42,9 @@ h2{
     font-weight: 400;
     color: var(--cor-02);
 }
+p{
+    text-align: center;
+}
 a{
     text-align: center;
     color: var(--cor-03);
@@ -45,12 +55,13 @@ a:hover{
     font-weight: 500;
 }
 
-.fotoperfil{
-    border-radius: 25%;
-    width: 20%;
+.pintura{
+    border-radius:50px;
+    width: 400px;
+    height: 230px;
     float: left;
     margin: 20px;
-    
+    min-width: 200px;
 }
 .sobremim{
     display: flex;
